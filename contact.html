@@ -34,7 +34,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-  <!-- <section id="topbar" class="d-flex align-items-center">
+  <section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope d-flex align-items-center"><a
@@ -51,63 +51,92 @@
 
   </section> -->
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-center ">
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto " href="index.html">Home</a></li>
-          <li><a class="nav-link scrollto" href="about.html">About</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li class="dropdown"><a href="#"><span>WEB DESIGN & DEVELOPMENT</span> <i
-                    class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">STATIC WEBSITE DESIGN</a></li>
-                  <li><a href="#">DYNAMIC WEBSITE DESIGN</a></li>
-                  <li><a href="#">ECOMMERCE WEBSITE DESIGN</a></li>
-                  <li><a href="#">WORDPRESS DEVELOPMENT</a></li>
-                  <li><a href="#">PSD TO HTML SERVICES</a></li>
-                  <li><a href="#">PHP DEVELOPMENT</a></li>
-                  <li><a href="#">DJANGO DEVELOPMENT</a></li>
-                </ul>
+  <!-- ======= Header =======
+  <!-- header start -->
+  <header class="header">
+    <div class="container">
+      <div class="row v-center">
+        <div class="header-item item-left">
+          <div class="logo">
+            <a href="index.html" class="logo"><img src="img/logo.png" style="width: 85%;" alt=""></a>
+          </div>
+        </div>
+        <!-- menu start here -->
+        <div class="header-item item-center">
+          <div class="menu-overlay">
+          </div>
+          <nav class="menu">
+            <div class="mobile-menu-head">
+              <div class="go-back"><i class="fa fa-angle-left"></i>
+                <div class="current-menu-title">
+                  <div class="mobile-menu-close">&times;
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="menu-main">
+              <li><a class="nav-link scrollto " href="index.html">Home</a></li>
+              <li><a class="nav-link scrollto" href="about.html">About</a></li>
+              <li class="menu-item-has-children">
+                <a href="#"> Services</a>
+                <div class="sub-menu mega-menu mega-menu-column-4">
+                  <div class="list-item">
+                    <h4 class="title">>WEB DESIGN & DEVELOPMENT</h4>
+                    <ul>
+                      <li><a href="#">STATIC WEBSITE DESIGN</a></li>
+                      <li><a href="#">DYNAMIC WEBSITE DESIGN</a></li>
+                      <li><a href="#">ECOMMERCE WEBSITE DESIGN</a></li>
+                      <li><a href="#">WORDPRESS DEVELOPMENT</a></li>
+                      <li><a href="#">PSD TO HTML SERVICES</a></li>
+                      <li><a href="#">PHP DEVELOPMENT</a></li>
+                      <li><a href="#">DJANGO DEVELOPMENT</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">MOBILE APP DEVELOPMENT</h4>
+                    <ul>
+                      <li><a href="#">ANDROID DEVELOPMENT</a></li>
+                      <li><a href="#">IOS APP DEVELOPMENT</a></li>
+                      <li><a href="#">HYBRID APP DEVELOPMENT</a></li>
+                      <li><a href="#">E-COMMERCE MOBILE APP DEVELOPMENT</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">SOFTWARE DEVELOPMENT</h4>
+                    <ul>
+                      <li><a href="#">CRM DEVELOPMENT</a></li>
+                      <li><a href="#">ERP DEVELOPMENTR</a></li>
+                      <li><a href="#">ACCOUNT & BILLING DEVELOPMENTR</a></li>
+                      <li><a href="#"> CUSTUM SOFTWARE DEVELOPMENT</a></li>
+                    </ul>
+                  </div>
+                  <div class="list-item">
+                    <h4 class="title">DIGITAL MARKETING</h4>
+                    <ul>
+                      <li><a href="#">SEO SERVICES</a></li>
+                      <li><a href="#">SMM SERVICES</a></li>
+                      <li><a href="#">PPC SERVICES</a></li>
+                      <li><a href="#">EMAIL MARKETING</a></li>
+                      <li><a href="#">SOCIAL MEDIA MANAGEMENT</a></li>
+                      <li><a href="#">ONLINE REPUTATION MANAGEMENT</a></li>
+                    </ul>
+                  </div>
+                </div>
               </li>
-              <li class="dropdown"><a href="#"><span>MOBILE APP DEVELOPMENT</span> <i
-                    class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">ANDROID DEVELOPMENT</a></li>
-                  <li><a href="#">IOS APP DEVELOPMENT</a></li>
-                  <li><a href="#">HYBRID APP DEVELOPMENT</a></li>
-                  <li><a href="#">E-COMMERCE MOBILE APP DEVELOPMENT</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>SOFTWARE DEVELOPMENT</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">CRM DEVELOPMENT</a></li>
-                  <li><a href="#">ERP DEVELOPMENTR</a></li>
-                  <li><a href="#">ACCOUNT & BILLING DEVELOPMENTR</a></li>
-                  <li><a href="#"> CUSTUM SOFTWARE DEVELOPMENT</a></li>
-                </ul>
-              </li>
-              <li class="dropdown"><a href="#"><span>DIGITAL MARKETING</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">SEO SERVICES</a></li>
-                  <li><a href="#">SMM SERVICES</a></li>
-                  <li><a href="#">PPC SERVICES</a></li>
-                  <li><a href="#">EMAIL MARKETING</a></li>
-                  <li><a href="#">SOCIAL MEDIA MANAGEMENT</a></li>
-                  <li><a href="#">ONLINE REPUTATION MANAGEMENT</a></li>
-                </ul>
-              </li>
+              <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
+              <li><a class="nav-link scrollto" href="package.html">Packges</a></li>
+              <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto " href="portfolio.html">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="package.html">Packges</a></li>
-          <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+          </nav>
+        </div>
+        <!-- menu end here -->
+        <div class="header-item item-right">
+          <!-- mobile menu trigger -->
+          <div class="mobile-menu-trigger">
+            <span></span>
+          </div>
+        </div>
+      </div>
     </div>
   </header><!-- End Header -->
 
